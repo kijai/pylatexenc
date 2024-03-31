@@ -28,7 +28,7 @@ import os.path
 
 from setuptools import setup, find_packages
 
-from pylatexenc.version import version_str
+#from pylatexenc.version import version_str
 
 def read(*paths):
     """Build a file path from *paths* and return the contents."""
@@ -37,7 +37,7 @@ def read(*paths):
 
 setup(
     name = "pylatexenc",
-    version = version_str,
+    version = "2.1.0",
 
     # metadata for upload to PyPI
     author = "Philippe Faist",
